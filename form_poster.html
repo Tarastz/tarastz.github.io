@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form_poster</title>
+	<link rel="stylesheet" href="css/My_style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<form action="index.html" method="GET" class="my_form">
+		
+		<fieldset class="fieldset">
+			<legend>Інформація про вас</legend>
+			<p>
+				<label>Ваше ім'я:</label>
+				<input type="text" name="name">
+			</p>
+			<p>
+				<label>Ваше прізвище:</label>
+				<input type="text" name="last_name">
+			</p>
+			<p>
+				<label>E-mail:</label>
+				<input type="email" name="email">
+			</p>
+			<p>
+				<label>Тел.:</label>
+				<input type="tel" name="tel" minlength="9" maxlength="14">
+			</p>
+		</fieldset>
+		<fieldset class="fieldset">
+			<legend>Інформація про собаку</legend>
+			<p>
+				<label>Порода собак(и)</label>
+				<input type="text" name="species">
+			</p>
+			<p>
+				<textarea>Короткий опис
+				</textarea>
+			</p>
+			<p>
+				<label>Додати фотографію</label>
+				<input type="file" value="Додати фотографію">
+			</p>
+		</fieldset>
+		<p><input type="submit" name="submit" value="Відправити"></p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/*index.html*/
+.col-1-2, .color-yellow, .gosti{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: Arial;
+	font-weight: 500;
+}
+/*contact.html*/
+.contact{
+	padding-top: 12px;
+}
+#clock{
+	float: left;
+}
+/*Training and eating and selling*/
+.text{
+	text-align: justify;
+}
+.center, .text>h3{
+	text-align: center;
+}
+.text p{
+	text-indent: 24px;
+}
+.text ul{
+	padding-left: 24px;
+	list-style-type: circle;
+}
+/*dogs.html*/
+.dogs{
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+.dog img{
+	margin: 0 auto;
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+.dog span{
+	display: block;
+	height: 60px;
+	text-align: center;
+}
+.dogs .dog{
+	margin: 0 auto;
+	width: 150px;
+	height: 180px;
+}
+/*Form_poster*/
+.my_form{
+	width: 500px;
+	margin: 0 auto;
+	font-size: 1em;
+	font-family: Arial;
+	
+}
+.fieldset p{
+	display: flex;
+	flex-direction: column;
+}
+input[type="submit"]{
+	width: 141px;
+	height: 41px;
+	border-radius: 50%;
+	background-color: #5DD0D7;
+	margin: 0 auto;
+	display: block;
+	font-weight: 500;
+	font-size: 1em;
+}
+input[type="submit"]:hover, input[type="file"]:hover, input[type="file"]{
+	outline: none;
+}
+.my_form input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.fieldset input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus {
+    background-color: lightblue;
+}
+.my_form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 791px){
+.col-1-4 h3{
+	height: 48px !important;
+}	
+}
+@media only screen and (max-width: 767px){
+.col-1-2, .gosti{
+	font-size: 1em !important;
+	text-transform:none;
+}
+#owl-slide{
+	margin-bottom: 0;
+}
+.my_form{
+	width: 100%;
+}	
+}
