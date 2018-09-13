@@ -23,10 +23,10 @@
 		
 		//Використовуєм колбек для обробки результатів
 		recognizer.onresult = function(event) {
-			var result = event.[results[event.resultIndex];
+			var result = event.results[event.resultIndex];
 			if (result.isFinal){
 				alert("Ви сказали: " + result[0].transcript);
-			} else{
+			} else {
 				console.log('Проміжний результат: ', result[0].transcript);
 			}
 		};
